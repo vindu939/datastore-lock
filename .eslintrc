@@ -1,0 +1,39 @@
+{
+    "extends": "eslint:recommended",
+    "rules": {
+        "no-unused-vars": [
+            "error",
+            {
+                "vars": "all",
+                "args": "none",
+                "ignoreRestSiblings": true
+            }
+        ],
+        "no-empty": [
+            "error",
+            {
+                "allowEmptyCatch": true
+            }
+        ],
+        "complexity": [
+            "error",
+            15
+        ],
+        "eol-last": [
+            "error",
+            "always"
+        ],
+        "semi":[
+            "error",
+            "always",
+            { "omitLastInOneLineBlock": true }
+        ]
+    },
+    "parserOptions": {
+        "ecmaVersion": 6
+    },
+    "env": {
+        "es6": true,
+        "node": true
+    }
+}
