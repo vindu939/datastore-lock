@@ -2,7 +2,7 @@
   "name": "datastore-lock",
   "version": "0.1.0",
   "description": "distributed lock based on google datastore",
-  "main": "src/index.js",
+  "main": "src/dslock.js",
   "scripts": {
     "test": "mocha \"./tests/**/*.test.js\"",
     "lint": "eslint ./src"
